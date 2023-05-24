@@ -1,0 +1,54 @@
+body { 
+    background: #FFB6C1
+
+}
+#banner {
+    width: 60%;
+    height: 400px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: crimson; 
+}
+
+em strong {
+    color: purple;
+    font-size: 40px;
+}
+
+strong {
+    color:blue
+}
+
+p {
+    text-align: center;
+}
+
+h2 , .beneficios {
+    color: rgb(130, 112, 230);
+    text-align: center;
+    background: pink;
+}
+
+.itens {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagembeneficios {
+    width: 30%;
+    height: 175px;
+    margin-left: 70%;
+    margin-top: -10%;
+    
+
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 49%;
+}
