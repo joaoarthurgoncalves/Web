@@ -11,15 +11,27 @@
 </head>
     
     <body>
-    <form name = "cadastroCliente" method="post" action=""
-        <div>
+    
+        <form name = "cadastroCliente" method="post" action="">
+            <fieldset> 
+            <div>
         
         <label> Cliente: </label>
         <input type = "text" name = "nomeCliente" placeholder = "Informe seu nome: ">
-
+        <br> <br>
         <label> CPF: </label>
         <input type="text" name="CPF" placeholder = "123.456.789-01"/>
+        <br> <br>
+        <label> Endereço: </label>
+        <input type="text" name="endereço" placeholder = "Endereço:"/>
+        <br> <br>
+        <label> Sexo: </label>
+        <input type="radio" name="sexo" value = "F" checked> Feminino
+        <input type="radio" name="sexo" value = "M"> Masculino
 
+            </fieldset>    
+        </form>
         </div>
+    
     </body>
 </html>
