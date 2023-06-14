@@ -42,3 +42,10 @@ input[type="reset"] {
     background-color: rgb(56, 17, 119);
     color: rgb(37, 201, 241);
 }
+
+input[type="number"] {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(165, 213, 221);
+}
