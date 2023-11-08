@@ -1,0 +1,25 @@
+h1 {
+    width: 900px;
+    height: 650;
+}
+
+.flower1 {
+    width: 50%;
+    height: 175px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.flor2 {
+    width: 50%;
+    height: 175px;
+    margin-left: 100%;
+    margin-top: -10%;
+}
+
+.florzinha3 {
+    width: 50%;
+    height: 175px;
+    margin-left: 40%;
+    margin-top: -10%;
+}

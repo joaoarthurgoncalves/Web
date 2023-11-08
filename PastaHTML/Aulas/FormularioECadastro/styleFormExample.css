@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(20, 179, 165);
+}
+
+h1 {
+    color: cyan;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    border-color: blue;
+}
+
+form fieldset {
+    width: 1675px;
+    height: 875px;
+    
+    background-color: rgb(25, 160, 194);
+    border: 5px solid rgb(108, 48, 204);
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(165, 213, 221);
+}
+
+input[type="date"] {
+    border-radius: 10px;
+    background-color: rgb(165, 213, 221);
+}
+
+input[type="submit"] {
+    background-color: rgb(56, 17, 119);
+    color: rgb(37, 201, 241);
+}
+
+input[type="reset"] {
+    background-color: rgb(56, 17, 119);
+    color: rgb(37, 201, 241);
+}
+
+input[type="number"] {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(165, 213, 221);
+}

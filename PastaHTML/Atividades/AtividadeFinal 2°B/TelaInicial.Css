@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(72, 119, 17);
+}
+
+h1 {
+    color: rgb(165, 207, 66);
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(36, 10, 13);
+}
+
+form fieldset { 
+    width: 1625px;
+    height: 775px;
+    margin: 0 auto;
+    background-color: rgb(209, 212, 10);
+    border: 5px solid rgb(226, 4, 4);
+    border-radius: 40px;
+}
+
+input[type="text"] {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(165, 213, 221);
+}
+
+input[type="date"] {
+    border-radius: 10px;
+    background-color: rgb(165, 213, 221);
+}
+
+button {
+    background-color: rgb(56, 17, 119);
+    color: rgb(37, 201, 241);
+}
+
+a {
+    background-color: rgb(56, 17, 119);
+    color: rgb(37, 201, 241);
+}
+
+input[type="reset"] {
+    background-color: rgb(56, 17, 119);
+    color: rgb(37, 201, 241);
+}
+
+input[type="number"] {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(165, 213, 221);
+}

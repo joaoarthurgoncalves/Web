@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vetores</title>
+
+</head>
+<body>
+  <h1>Exemplos de leitura e escrita</h1><br>
+  <a href="javascript:escreverLer()"> Exemplo 1 </a><br>
+  <a href="javascript:escreverLer1()"> Exemplo 2 </a><br>
+  <a href="javascript:escreverLer2()"> Exemplo 3 </a><br>
+  <a href="javascript:escreverLer3()"> Exemplo 4 </a><br>
+  <br>
+  <h1>Exemplos de Inclusão e remoção</h1><br>
+  <form>
+      <input type="text" id="novaFruta" required placeholder="Informe a fruta para incluir">
+      <input type="button" onclick="incluirItem()" value="Incluir fruta">
+      <input type="button" onclick="excluirItem(0)" value="Excluir última fruta">
+      <input type="button" onclick="excluirItem(1)" value="Excluir primeira fruta">
+      <input type="button" onclick="excluirItem(2)" value="Excluir frutas 2 e 3">
+
+  <h1>Exemplos de busca</h1><br>
+      <input type="text" id="fruta" required placeholder="Informe a fruta para obter o indice">
+      <input type="button" onclick="buscarIndice()" value="Busar índice">
+  </form>
+
+<div id="painel"></div>
+</body>
+</html>
+<script src="vetores.js"></script>

@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(76, 148, 182);
+}
+
+form fieldset {
+    width: 725px;
+    height: 175px;
+    margin: 0 auto;
+    border: 3px solid rgb(32, 218, 178);
+    border-radius: 20px;
+}
+
+form legend {
+    font-style: bold;
+    font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif"
+}
+
+form { 
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    width: 600px;
+}
+
+input[type="reset"] {
+    background-color: rgb(185, 75, 196);
+    width: 175px;
+}
+
+button {
+    background-color: rgb(185, 75, 196);
+    width: 175px;
+    border-radius: 10px;
+    color:black
+}
+
+input[type="submit"] {
+    background-color: rgb(185, 75, 196);
+    width: 175px;
+}

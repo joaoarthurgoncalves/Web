@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário de Cadastro </title>
+    <link rel="stylesheet" href="styleFormExample.css">
+
+</head>
+    <body>
+        <form name = "formCadastro" action ="" method = "post">
+            
+            <center> <font face = Uroob size = 6> Dados Pessoais: </font> </center>
+                
+                <fieldset>
+                <br>
+                        <div>
+                <label for = "fNome"> <font face = Courier size = 2> Nome do Cliente: </font> </label>
+                <input type = "text" name = "fNome" placeholder = "Informe seu nome: ">
+                
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                <label for = "fNomeEmpresa"> <font face = Courier size = 2> Nome da Organização/Empresa do Cliente: </font> </label>
+                <input type = "text" name = "fNomeEmpresa" placeholder = "Organização/Empresa: ">
+                        </div> <br>
+                        <hr> 
+                     <h1> <font color = darkblue face = Uroob size = 7> INFORMAÇÕES DO CLIENTE </font> </h1>
+                        <hr>
+
+                        <div>
+                <label for = "fTEL"> <font face = Courier size = 2> Telefone Residencial: </font> </label>
+                <input type="text" name="fTEL" placeholder = "XXXX-XXXX"/>
+                
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                <label for = "fCEL"> <font face = Courier size = 2> Celular: </font> </label>
+                <input type = "text" name = "fCEL" placeholder = "(XX) XXXXX-XXXX:">
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                <label for = "fEMAIL"> <font face = Courier size = 2> Endereço de Email: </font> </label>
+                <input type = "text" name = "fEMAIL" placeholder = "exemplo@gmail.com ">
+                        </div> <br> <br>
+                    
+                        <div>
+                <label for = "fEndereço"> <font face = Courier size = 2> Endereço: </font> </label>
+                <input type="text" name = "fEndereço" placeholder = "Endereço:"/>
+                        </div> <br> <br>
+
+
+                        <div>
+                <label for = "fCidade"> <font face = Courier size = 2> Cidade: </font> </label>
+                <input type="text" name = "fCidade" placeholder = "Cidade:"/>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                <label for = "fEstado"> <font face = Courier size = 2> Estado: </font> </label>
+                <input type = "text" name = "fEstado" placeholder = "Estado:">
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
+                <label for = "fCEP"> <font face = Courier size = 2> CEP: </font> </label>
+                <input type = "text" name = "fEstado" placeholder = "CEP:">
+                    </div> <br> <br>
+
+                    <div>
+                        <label for = "fProfissao"> <font face = Courier size = 2> Profissão/Tipo de Empresa: </font> </label>
+                        <input type="text" name = "fProfissao" placeholder = "Ex: Professor"/>
+                                </div> <br>
+
+                        <div>
+                <label for = "fSexo"> <font face = Courier size = 2> Sexo: </font> </label>
+                <input type="radio" name="fSexo" value = "F"> Feminino
+                <input type="radio" name="fSexo" value = "M"> Masculino
+                    </div> <br>
+
+
+                        <div>
+                <label for = "fDatadeNascimento"> <font face = Courier size = 2> Data de Nascimento: </font>: </label>
+                <input type="date" name="DataDeNascimento">
+                        </div> <br>
+
+
+                        <div>
+                <label> <font face = Courier size = 2> Raça: </font> </label>
+
+                <input type="checkbox" name="branco" value = "branco"> Branco 
+
+                <input type="checkbox" name="negro" value = "negro"> Negro 
+
+                <input type="checkbox" name="date" value = "pardo"> Pardo 
+
+                <input type="checkbox" name="date" value = "amarelo"> Amarelo
+
+                <input type="checkbox" name="date" value = "indigena"> Indígena
+                        </div> <br>
+
+                        <div>
+                <input type="submit" name="Enviar" value = "Cadastrar-se">
+                <input type="reset" name="Limpar" value = "Limpar">        
+                        </div>
+
+            </fieldset>
+
+
+        </form>    
+    </body>
+</html>
