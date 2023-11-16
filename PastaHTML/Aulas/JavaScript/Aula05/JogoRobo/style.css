@@ -1,0 +1,41 @@
+table{
+    border: 5px solid black;
+    margin: auto;
+    background-color: white;
+    }
+
+td{
+    border: 5px solid rgb(41, 48, 40);
+    width: 100px;
+    height: 100px;
+    }
+
+#display{
+    border: 5px solid black;
+    font-size: 20px;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+
+#comandos{
+    border-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;   
+    }
+
+titulo{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#botoes{
+    border-color: black;
+    }
+
+
+body{
+    background-color: rgb(105, 35, 35);
+    }
+
